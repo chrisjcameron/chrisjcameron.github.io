@@ -4,7 +4,7 @@ title: Python Anaconda, Homebrew and iGraph
 ---
 
 ### Using Python Anaconda with iGraph
-Anaconda all-included distribution is a great way to simplify the setup and management of Python installations for new users. Occasionally, the libraries bundled with Anaconda take priority over the default or Homebrew versions and cause issues when building extensions. I ran into this issue while trying to install python-igraph on a clean install of OS X 10.11, with [homebrew](brew.sh) installes igraph C library and [Anaconda](https://anaconda.org/) Python 2.7.
+Anaconda all-included distribution is a great way to simplify the setup and management of Python installations for new users. Occasionally, the libraries bundled with Anaconda take priority over the default or Homebrew versions and cause issues when building extensions. I ran into this issue while trying to install python-igraph on a clean install of OS X 10.11, with [homebrew](brew.sh) installed igraph C library and [Anaconda](https://anaconda.org/) Python 2.7.
 
 #### The symptoms
 
