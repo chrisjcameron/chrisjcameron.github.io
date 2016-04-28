@@ -44,5 +44,5 @@ I read suggestions to uninstall various components, rename library files and oth
 
 `4.` Use extra flags so python-igraph is not built against the libraries bundled with Anaconda:
 
-    ~/anaconda/bin/pip install python-igraph --global-option=build_ext --global-option="-L/usr/lib:/usr/local/lib
+    ~/anaconda/bin/pip install python-igraph --global-option=build_ext --global-option="-L/usr/lib:/usr/local/lib"
    
