@@ -41,6 +41,10 @@ I read suggestions to uninstall various components, rename library files and oth
 `3.` Install homebrew iGraph normally: 
 
     % brew install igraph
+    
+   or if you don't have homebrew/science/ tapped,
+   
+    % brew install homebrew/science/igraph
 
 `4.` Use extra flags so python-igraph is not built against the libraries bundled with Anaconda:
 
