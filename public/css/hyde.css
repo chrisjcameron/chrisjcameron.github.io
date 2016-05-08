@@ -104,6 +104,12 @@ a.sidebar-nav-item:focus {
   line-height: 1;
 }
 
+.sidebar-heading-item {
+  display: block;
+  line-height: 1;
+  font-weight: bold;
+  color: #f9f9f9
+}
 
 /* Sticky sidebar
  *
