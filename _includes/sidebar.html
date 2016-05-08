@@ -9,6 +9,7 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
+    <hr>
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
@@ -38,7 +39,7 @@
       {% for node in posts_list %}
         {% if node.title != null %}
           {% if node.layout == "post" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            <a class="sidebar-post-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
       {% endfor %}
