@@ -34,7 +34,7 @@ I read suggestions to uninstall various components, rename library files and oth
 `2.` Try this first if you think brew igraph install is messed up:
 
     % brew unlink igraph
-    % brew uninstall graph
+    % brew uninstall igraph
     % brew update
     % brew doctor
 
